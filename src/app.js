@@ -1,8 +1,41 @@
 import express from 'express';
+import logger from '#config/logger.js';
+import morgan from 'morgan';
+import helmet from 'helmet';
+import cors from 'cors';
+import cookieParser from 'cookie-parser';
+import auth from '#routes/auth.routes.js';
 
 const app = express();
 
+app.use(helmet());
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
+app.use(
+    morgan('combined', {
+        stream: {
+            write: (message) => logger.info(message.trim())
+        }
+    })
+);
+
 app.get('/', (req, res) => {
-  res.status(200).send('hello from aquisitions team');
+    logger.info('hello from acquisitions web application');
+    res.status(200).send('hello from acquisitions team');
 });
+
+app.get('/health', (req, res) => {
+    res.status(200).json({ status: 'ok', timestamp: new Date().toISOString(), uptime: process.uptime() });
+});
+
+app.get('/api', (req, res) => {
+    res.status(200).json({
+        message: 'Acquisitions API is running'
+    });
+});
+
+app.use('/api/auth', auth);
+
 export default app;
