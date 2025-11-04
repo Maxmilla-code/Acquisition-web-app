@@ -101,3 +101,6 @@
 {"level":"info","message":"::1 - - [04/Nov/2025:17:02:16 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 101 \"-\" \"HTTPie\"","service":"acquisitions-web-app","timestamp":"2025-11-04T17:02:16.443Z"}
 {"level":"info","message":"user signed out","service":"acquisitions-web-app","timestamp":"2025-11-04T17:02:44.085Z"}
 {"level":"info","message":"::1 - - [04/Nov/2025:17:02:44 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 29 \"-\" \"HTTPie\"","service":"acquisitions-web-app","timestamp":"2025-11-04T17:02:44.088Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:21:55:20 +0000] \"GET / HTTP/1.1\" 500 95 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-web-app","timestamp":"2025-11-04T21:55:20.342Z"}
+{"level":"info","message":"hello from acquisitions web application","service":"acquisitions-web-app","timestamp":"2025-11-04T21:58:31.360Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:21:58:31 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-web-app","timestamp":"2025-11-04T21:58:31.411Z"}
