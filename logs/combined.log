@@ -104,3 +104,12 @@
 {"level":"info","message":"::1 - - [04/Nov/2025:21:55:20 +0000] \"GET / HTTP/1.1\" 500 95 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-web-app","timestamp":"2025-11-04T21:55:20.342Z"}
 {"level":"info","message":"hello from acquisitions web application","service":"acquisitions-web-app","timestamp":"2025-11-04T21:58:31.360Z"}
 {"level":"info","message":"::1 - - [04/Nov/2025:21:58:31 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-web-app","timestamp":"2025-11-04T21:58:31.411Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:22:00:22 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-web-app","timestamp":"2025-11-04T22:00:22.344Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:22:00:45 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-web-app","timestamp":"2025-11-04T22:00:45.391Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:22:00:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-web-app","timestamp":"2025-11-04T22:00:51.943Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:22:00:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-web-app","timestamp":"2025-11-04T22:00:55.261Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:22:01:00 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-web-app","timestamp":"2025-11-04T22:01:00.150Z"}
+{"ip":"::1","level":"warn","message":"Rate limit exceed","path":"/health","service":"acquisitions-web-app","timestamp":"2025-11-04T22:01:04.620Z","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [04/Nov/2025:22:01:04 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-web-app","timestamp":"2025-11-04T22:01:04.624Z"}
+{"level":"info","message":"hello from acquisitions web application","service":"acquisitions-web-app","timestamp":"2025-11-04T22:58:35.763Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:22:58:35 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-web-app","timestamp":"2025-11-04T22:58:35.799Z"}
